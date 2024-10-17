@@ -1,0 +1,40 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:beige;
+}
+*:focus{
+    outline: none;
+}
+input{
+    width: 70%;
+    background-color:azure;
+    border-radius: 25px;
+    height: 3em;
+    text-align: center;
+    border: 0.1em solid black;
+}
+button{
+    background-color: brown;
+    color:azure;
+    width: 20%;
+    height: 3em;
+    margin-left: 3em;
+    border-radius: 25px;
+}
+button:active{
+    background-color: rgb(167, 16, 46);
+}
+
+article{
+    background-color: rgba(165, 42, 42, 0.682);
+    border-radius: 40px;
+    width: 70%;
+    height: 70%;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em 1em;
+    padding: 1em;
+    margin-left:15%;
+    margin-right: 15%;
+}
