@@ -11,7 +11,6 @@ async function fetchWizard() {
         let wizardName = document.getElementById("wizardName").value;
         if (wizardName!=undefined){
             wizardName = wizardName[0].toUpperCase() + wizardName.slice(1);
-            console.log(wizardName);
         } 
 
         const result = await fetch("https://potterapi-fedeperin.vercel.app/en/characters");
@@ -23,6 +22,7 @@ async function fetchWizard() {
                 console.log(wizard);
             };
         }
+        document.getElementById("wizardName").value = "";
     }
     catch(error) {
         console.error(error);
