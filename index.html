@@ -10,12 +10,12 @@
                 <input type="text" placeholder="Enter Character Nickname" id="wizardName" onfocus="focusFunction(event)" onblur="blurFunction(event)">
                 <button type="button" onclick="fetchWizard()">Submit</button>
             </p>
-            <article>
-                <div class="item-1">name</div>
-                <div class="item-2">birthday</div>
-                <div class="item-3">image</div>
-                <div class="item-4">Hogwarts house</div>
-                <div class="item-5">actor</div>
+            <article id="template">
+                <div id="item-1">name</div>
+                <div id="item-2">birthday</div>
+                <div id="item-3"><img src="" alt="Ops! Seems there is no image for this character" display="none" id="wizardImage"></div>
+                <div id="item-4">Hogwarts house</div>
+                <div id="item-5">actor</div>
             </article>
         </section>
     </body>
